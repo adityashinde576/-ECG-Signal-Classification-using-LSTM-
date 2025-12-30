@@ -29,23 +29,7 @@ The goal of this project is to:
 
 ## Dataset Information
 
-Dataset used: **MIT-BIH Arrhythmia Dataset**
-
-Source:
-
-* Kaggle: [https://www.kaggle.com/datasets/shayanfazeli/heartbeat](https://www.kaggle.com/datasets/shayanfazeli/heartbeat)
-
-Files:
-
-* `mitbih_train.csv`
-* `mitbih_test.csv`
-
-Dataset details:
-
-* Each sample contains **187 time steps**
-* Last column represents the class label
-* Total classes: **5 heartbeat categories**
-* Data is pre-segmented and labeled
+Dataset used: **MIT-BIH Arrhythmia Dataset** (Kaggle)
 
 ---
 
@@ -66,7 +50,6 @@ Dataset details:
 
 1. Data Loading
 2. Data Preprocessing
-
    * Feature scaling
    * Reshaping for LSTM input
 3. LSTM Model Definition
